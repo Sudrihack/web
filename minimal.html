@@ -2,10 +2,12 @@
 <html lang="fr">
   <head>
 	<title>Modèle</title>
+	<link rel="stylesheet" type="text/css" href="introduction.css">
 	<meta charset="utf-8">
   </head>
   <body>
-	<h1>Introduction au HTML</h1>
+	<h1>Introduction aux langages du web</h1>
+	<h2>Les bases du HTML</h2>
 	Le document HTML minimal comprend:
 	<!-- La balise ul signifie Unordered List -->
 	<ul>
@@ -14,9 +16,9 @@
 		une balise &lt;!DOCTYPE&gt;signifiant au navigateur que le
 		document est écrit en html.
 	  </li>
-	  <li>une balise &lt;html&gt;</li>
+	  <li class="toto">une balise &lt;html&gt;</li>
 	  <li>une balise &lt;head&gt;</li>
-	  <li>une balise &lt;body&gt;</li>
+	  <li class="toto">une balise &lt;body&gt;</li>
 	</ul>
 	A l'intérieur de la balise &lt;head&gt; doit toujours figurer:
 	<ul>
@@ -25,7 +27,8 @@
 	</ul>
 	HTML signifie HyperTextMarkupLanguage. Ce langage est fait pour
 	crée des liens entre différents documents:
-	<a href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language">
+	<a class="toto"
+	   href="https://fr.wikipedia.org/wiki/Hypertext_Markup_Language">
 	  un lien
 	</a>.
 	<p>La balise &lt;p&gt; permet de définir un paragraphe.</p>
@@ -43,6 +46,13 @@
 	<p>Il est possible d'afficher une image grâce à la balise
 	  &lt;img&gt;:</p>
 	<img src="http://jewlofthelotus.github.io/Surviving-Support/images/yoda-rtfm.png"
-	  alt="RTFM">
+		 alt="RTFM">
+	<h2>Les bases du CSS</h2>
+	<p>La syntaxe du CSS (Cascade StyleSheet) est la suivante:</p>
+	<pre>
+	  selecteur {
+	     propriété: valeur;
+	  }
+	</pre>
   </body>
 </html>

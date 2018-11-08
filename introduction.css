@@ -1,0 +1,20 @@
+/* Selecteurs de balises: nom de la balise */
+body {
+	padding: 0 20%;
+}
+img {
+	width: 600px;
+	border-radius: 5px;
+	transition: 5s;
+}
+/* Selecteurs de classes: .nom_de_la_classe */
+
+.toto {
+	font-size: xx-large;
+}
+
+/* Pseudo-classes, spécifiée grâce aux deux points  */
+img:hover {
+	width: 1000px;
+	transition: 1s;
+}
